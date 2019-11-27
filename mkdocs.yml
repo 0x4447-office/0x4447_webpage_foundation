@@ -1,5 +1,13 @@
 site_name: 0x4447, LLC. Foundation
+site_url: https://foundation.0x4447.com
+repo_url: https://github.com/0x4447-office/0x4447_webpage_foundation
+site_author: '0x4447, LLC.'
+
+copyright: 'Est. 2016, Copr. <a href="https://0x4447.com">0x4447, LLC.</a>'
+
+use_directory_urls: false
+
 nav:
     - Home: index.md
     - About: about.md
-use_directory_urls: false
+
