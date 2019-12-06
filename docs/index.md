@@ -22,9 +22,9 @@ This very nicely shows that a computer’s memory deals solely with numbers. It�
 
 For us, this is an important part of our forward progression. We love learning new things, find out how things work, and coming up with plans to achieve goals in the most efficient way. But once we do all that, we create a tool that automatically does what we’ve just learned to do. Then we can lock down our knowledge in software everyone can use and learn from.
 
-We can then focus on the next task and continue to build our solid foundation of knowledge and experience. This rule applies to developers, designers, and office workers.
+We can then focus on the next task and continue to build our solid foundation of knowledge and experience. This rule applies to everyone in the company.
 
-We don't believe in repetitive factory-type work. We love to spend our time thinking, creating, and learning in a way that keeps life interesting. This is one of our core beliefs at 0x4447.
+We don't believe in repetitive factory-type work. We love to spend our time thinking, creating, and learning in a way that keeps life interesting.
 
 # GitHub FTW
 
