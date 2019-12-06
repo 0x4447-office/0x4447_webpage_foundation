@@ -3,18 +3,19 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      python: 3.7
+      python: 3.8
     commands:
-      - echo Entered the install phase...
-      - curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-      - python get-pip.py
-      - pip install mkdocs
+      - pip install --upgrade pip
+      - python -m pip install mkdocs
+
+      - python --version
+      - pip --version
+      - mkdocs --version
   build:
     commands:
-      - mkdocs build
+      - python -m mkdocs build
   post_build:
     commands:
-      - echo Entered the post_build phase...
       - aws s3 rm --recursive s3://$S3_BUCKET
       - aws s3 cp ./site s3://$S3_BUCKET --recursive
       - aws cloudfront create-invalidation --distribution-id $DISTRIBUTION_ID --paths "/*"
