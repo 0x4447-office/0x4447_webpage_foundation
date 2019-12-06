@@ -10,4 +10,5 @@ use_directory_urls: false
 nav:
     - Home: index.md
     - Departments: departments/index.md
+      - Office: departments/office.md
 
