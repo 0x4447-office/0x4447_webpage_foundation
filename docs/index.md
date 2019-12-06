@@ -1,4 +1,4 @@
-# 📚 Foundation
+# 📚 Company Foundation
 
 We strongly believe that it’s vital to first build a solid foundation on which to build a bigger idea. We want to make everything easy to understand. The goal of this repository is to give you an understanding that we’re serious about this and to show you how to work to achieve our goals.
 
