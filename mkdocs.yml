@@ -11,4 +11,6 @@ nav:
     - Home: index.md
     - Departments:
       - Office: departments/office.md
+      - Design: departments/design.md
+      - Programers: departments/programers.md
 
