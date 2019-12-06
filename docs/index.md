@@ -18,8 +18,6 @@ The numbers 4447 are the initials of the CEO as written in hexadecimal notation,
 
 This very nicely shows that a computer’s memory deals solely with numbers. It’s up to you to decide whether you want to represent those numbers as either data or instructions for the CPU. In this case, the position of the numbers within memory tells the computer how to interpret them. When we’re dealing with data instead of instructions, we decide how we want to interpret 68, and we’ve agreed that 68 is D. The letter is displayed on the screen because the font is also tied to that letter in the system. This means that we start with a number, then slowly add layers on top of it until it becomes something meaningful for humans.
 
-And that’s what my company’s name represents. 😅
-
 # Automation
 
 For us, this is an important part of our forward progression. We love learning new things, find out how things work, and coming up with plans to achieve goals in the most efficient way. But once we do all that, we create a tool that automatically does what we’ve just learned to do. Then we can lock down our knowledge in software everyone can use and learn from.
