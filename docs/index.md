@@ -1,10 +1,10 @@
 # 📚 Company Foundation
 
-We strongly believe that it’s vital to first build a solid foundation on which to build a bigger idea. We want to make everything easy to understand. The goal of this repository is to give you an understanding that we’re serious about this and to show you how to work to achieve our goals.
+We strongly believe that it’s vital to first build a solid foundation on which to build a bigger ideas, and we make sure everything is easy to understand by anyone. The goal of this repository is to give you an understanding that we’re serious about this and to show you how to work to achieve our goals.
 
 # Good Foundation
 
-We at 0x4447 strongly believe in building a solid foundation before going full speed ahead. We’ve seen over the years that when we’re creating, taking the time to learn the rules, understand problems, and prepare ourselves for the work ahead will save time down the road. I know that it might seem that spending time reading, testing, or thinking might give the impression that not much work is being done. But it’s better to accomplish something while looking as though you’re doing nothing than to take three times longer doing busy work to keep up the appearance that real work is going on.
+Ar 0x4447, LLC. we strongly believe in building a solid foundation before going full speed ahead. We’ve seen over the years that when we’re creating, taking the time to learn the rules, understand problems, and prepare ourselves for the work ahead will save time down the road. I know that it might seem that spending time reading, testing, or thinking might give the impression that not much work is being done. But it’s better to accomplish something while looking as though you’re doing nothing than to take three times longer doing busy work to keep up the appearance that real work is going on.
 
 # The Company Name
 
@@ -26,13 +26,13 @@ We can then focus on the next task and continue to build our solid foundation of
 
 We don't believe in repetitive factory-type work. We love to spend our time thinking, creating, and learning in a way that keeps life interesting.
 
-# GitHub FTW
+# GitHub
 
-Let’s start by explaining that 0x4447 uses GitHub so much because we just love it and its flexibility allows us to keep almost anything there. Why? Because it’s easy to recognize and track any change made to almost any file type (except for the more exotic closed source binary, of course). As a result:
+We uses GitHub extensivelly becasue it is flexible, it allows us to keep almost anything there sotred on it. And it gives us the ability to track almost any chagne to the data stored in it (except for the more exotic closed source binary, of course). As a result:
 
 - Our data is nicely backed up.
 - We can go back in history and determine why something’s changed.
 - Anyone is free to propose a change.
 - It’s easy to discuss changes.
 
-GitHub is not limited to programmers; anyone can use it, even designers, since it will show differences in most image formats.
+GitHub is not limited to programmers; anyone can use it, even designers, administrative work, etc.
