@@ -10,7 +10,6 @@ use_directory_urls: false
 nav:
     - Home: index.md
     - Departments:
-      - Office: departments/office.md
-      - Design: departments/design.md
+      - For All: departments/office.md
+      - Designers: departments/design.md
       - Programers: departments/programers.md
-
