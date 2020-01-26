@@ -10,7 +10,7 @@ Because clean, clear, commented code is faster to read, understand, reason about
 
 We like to say to ourselves that we understand our mushed code, one liners, no comments because the code is `obvious`. Yet, while struggling to read someone else's mushed, one liner no comment code we often think that maybe we are not that smart after all. It's ironic how someone else's code written the in the same way that we wrote our own is difficult to understand. Be kind to your future self – returning to the code in the future and to other developers – by making the code easy to understand by keeping line short, the logic clear, and comments accurate.
 
-## No "Clean Code" - stop resuing
+## No "Clean Code" - stop reusing
 
 No matter where you learn about programming, one of the first thing you'll be tought would be the idea of the reusablity of the code thanks to function. And this is a good example to explain how functions works, but it is definatelly over used, to the poitn that they'll make you think that if you don't reause all the code, you are programming the wrong way. This is duea to the problem that people focus on programming (jsut code) and not on how to strucutrea a project in general. 
 
@@ -24,6 +24,11 @@ A good example of functions that can and should be reused, is code that wraps a 
 
 If you think that what we write is nonsense, maybe this example ([goodbye-clean-code](https://overreacted.io/goodbye-clean-code/)) will help you open your mind to this idea.
 
+## No Abstraction is allowed
+
+Similar to the topic above, abstraction seams good at first, but brakes down, once a project keesp growing and new features are beaing added. That is why in our project we don't make clases, that inherit mutliple clases, and so in to inifinity. We want to keep our project flexible, straight forward and easy to extend. 
+
+A good article talkign about this topic is called [The Wrong Abstraction](https://www.sandimetz.com/blog/2016/1/20/the-wrong-abstraction).
 
 ## Fancy Functions are not Allowed
 
