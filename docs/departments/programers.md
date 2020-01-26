@@ -8,7 +8,7 @@ Because clean, clear, commented code is faster to read, understand, reason about
 
 ## Complexity is not Cool
 
-We like to say to ourselves that we understand our mushed code, one liners, no comments because the code is `obvious`. Yet, while struggling to read someone else's mushed, one liner no comment code we often think that maybe we are not that smart after all. It's ironic how someone else's code written the in the same way that we wrote our own is difficult to understand. Be kind to your future self returning to the code and other developers by making the code easy to understand by keeping line short, the logic clear, and comments accurate.
+We like to say to ourselves that we understand our mushed code, one liners, no comments because the code is `obvious`. Yet, while struggling to read someone else's mushed, one liner no comment code we often think that maybe we are not that smart after all. It's ironic how someone else's code written the in the same way that we wrote our own is difficult to understand. Be kind to your future self – returning to the code in the future and to other developers – by making the code easy to understand by keeping line short, the logic clear, and comments accurate.
 
 ## Fancy Functions are not Allowed
 
