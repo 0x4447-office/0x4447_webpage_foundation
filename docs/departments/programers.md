@@ -10,7 +10,7 @@ Because clean, clear, commented code is faster to read, understand, reason about
 
 We like to say to ourselves that we understand our mushed code, one liners, no comments because the code is `obvious`. Yet, while struggling to read someone else's mushed, one liner no comment code we often think that maybe we are not that smart after all. It's ironic how someone else's code written the in the same way that we wrote our own is difficult to understand. Be kind to your future self returning to the code and other developers by making the code easy to understand by keeping line short, the logic clear, and comments accurate.
 
-### Fancy Functions are not Allowed
+## Fancy Functions are not Allowed
 
 Based on the rule that no one-liners are allowed, the following functions should not be used: 
 
@@ -25,11 +25,11 @@ On the other hand `.forEach()` is allowed because it actually helps you writing 
 
 The `for()` loop should be used instead of `.forEach()` when you are looking for something in an array and can stop the loop once you found it – thus preserving CPU cycles. Or when you want to loop over a JavaScript Object.
 
-### Spacing
+## Spacing
 
 Line separation is the most important tool to help our brain distinguish as soon as possible all the different parts of a block of code. By separating everything the right way, our brains have to do very little work to mentally separate all the mushed code, and it makes it easier to focus on what is important and discard the rest. Instead of keeping a mental map of what is where. 
 
-### Comments
+## Comments
 
 We DO comment 99.9% of our code, meaning almost each line has a comment explaining why that line exists and what it does. We structure our comments like this:
 
@@ -75,7 +75,7 @@ Now from just this comment you can imagine what the application might do without
 
 Every comment needs to answer the question: `Why?`.
 
-### Variable Names
+## Variable Names
 
 Since visual separation is so important to use we also make sure to write variables in a way that makes clear how many words are you dealing with. That is why we do not care about what language tells you to to. We write our variable like so:
 
@@ -89,15 +89,15 @@ let check_gate = true;
 
 We use the `_` to visually separate the words so you don't have to unravel something like this `checkGate` in your head.
 
-### Var, Let & Const
+## Var, Let & Const
 
 In the Back-End and Front-End we only use `let`. We don't use `const` because `const` does not solve any real life problems and just adds confusion. To prepend a variable with `const` is to tell the language that you can't replace a pointer to an object, and that is it. There is no real use for this, or at least we didn't find any, and so we keep it simple.
 
-### Full Stops & Semicolons
+## Full Stops & Semicolons
 
 Despite some languages not forcing you to use a `;` at the end of a line, we do it anyway, to let us puny humans know that there is no more code after this point in the line. The ';' makes it clear what to expect. Same thing goes with the Full Stop in sentences. We add a full stop to let us humans know that there is no more to come.
 
-### Functions Vs. Callbacks Formatting
+## Functions Vs. Callbacks Formatting
 
 Over the years we settled on the following way to write functions and callback functions. For regular function,
 
@@ -126,11 +126,11 @@ say_hello(function(data) {
 In the first version, we add white separation by using the `{}`, while we use a regular empty line to add separation in the when we work with a callback function.
 
 
-### Arrow function
+## Arrow function
 
 We limit the use of Arrow Functions; we use them only when we are working on a Class to give a function access to the `context` of the object. They were designed for this scenario. They were not designed to wrtie less code. Don't be cool be clear.
 
-### 80 Column rule
+## 80 Column rule
 
 This is a very old rule that was introduced when monitors were expensive and their resolution was poor. Line length was limited to ensure that two files could be viewed and worked on next to each other on one screen.
 
@@ -145,7 +145,7 @@ We try to adhere to the 80 column rule, but with the following exceptions:
 - When we work with HTML, since to adhere to this rule would make the HTML harder to read
 - When some times splitting a long line in regular code would make it harder to read.
 
-### Else is not allowed
+## Else is not allowed
 
 Eliminating use of else `else` allows for identical functionality with increased clarity, for example:
 
