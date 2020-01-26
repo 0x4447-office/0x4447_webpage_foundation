@@ -10,6 +10,21 @@ Because clean, clear, commented code is faster to read, understand, reason about
 
 We like to say to ourselves that we understand our mushed code, one liners, no comments because the code is `obvious`. Yet, while struggling to read someone else's mushed, one liner no comment code we often think that maybe we are not that smart after all. It's ironic how someone else's code written the in the same way that we wrote our own is difficult to understand. Be kind to your future self – returning to the code in the future and to other developers – by making the code easy to understand by keeping line short, the logic clear, and comments accurate.
 
+## No "Clean Code" - stop resuing
+
+No matter where you learn about programming, one of the first thing you'll be tought would be the idea of the reusablity of the code thanks to function. And this is a good example to explain how functions works, but it is definatelly over used, to the poitn that they'll make you think that if you don't reause all the code, you are programming the wrong way. This is duea to the problem that people focus on programming (jsut code) and not on how to strucutrea a project in general. 
+
+This cause over cleaning, over resuing, over orgazning without understanding that a project is never set in stone, and only becaue in the beginnign you see that there are some places in the proejct that could reuse a single function, it doesn't mean over time those parts of the proejct will start growing outisde what you initially thoug. 
+
+When this happens, you'll find uourself starting to add if statments, edge cases, and exeptions to adapt to the growing project, and after a while you'll paing yourself in a corner, and won't be able to move forward - theo nly option would be to re-wrtie the project - which will cause having custom cude for those part of he proejct that in the beginnign you'd wanted to clean up. 
+
+Copy and past the code, don't warry about organizing evrything in one function that is reasued - becasue in few months you'll find that the project will gro in dirrections that you'd had no idea. 
+
+A good example of functions that can and should be reused, is code that wraps a standard, for example convert string to Base64, this will never chagne over time, and fo course you can have one funtion and resue it. Converting a BMP to a JPEG, of course we want to resue thath code. But evrytihng that is related to the project - copy and past, and let it grow naturally.
+
+If you think that what we write is nonsense, maybe this example ([goodbye-clean-code](https://overreacted.io/goodbye-clean-code/)) will help you open your mind to this idea.
+
+
 ## Fancy Functions are not Allowed
 
 Based on the rule that no one-liners are allowed, the following functions should not be used: 
