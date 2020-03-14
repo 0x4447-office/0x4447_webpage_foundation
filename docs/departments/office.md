@@ -57,3 +57,7 @@ As a developer you don't have to manage the cards, they will either be managed a
 A card will be created in the In Progress status when a new PR is made, this means that the PR is in review, while also in progress to completion, since at this stage whoever is responsible for the project might ask for changes.
 
 This means that whoever is responsible will assume that if there is no PR open, you are working on the first card on the stack of the `To do` column. (I've used card systems like this before, but this explanation does not clarify the work flow for me. Let's have a quick chat and then clarify the text.)
+
+## Use a GUI, not a CLI!
+
+Lastelly we don't waste time mastering the Git CLI - there is no reason at this point to do so, since the GUI availalbe make it much easier to work with Git. Our prefered Git client is [GitHub Desktop](https://desktop.github.com/), which is free and works very well. Please don't waste working houers to manage Git with a CLI.
