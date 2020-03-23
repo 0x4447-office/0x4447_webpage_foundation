@@ -5,7 +5,7 @@ phases:
     runtime-versions:
       python: 3.8
     commands:
-      - pip install -Iv pip==19.1.1
+      - pip install --no-use-wheel pip
       - python -m pip install mkdocs
 
       - python --version
