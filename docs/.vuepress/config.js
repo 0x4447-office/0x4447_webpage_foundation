@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: "Vuepress Docs Boilerplate",
+  title: "0x4447, LLC. - Foundation",
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -30,34 +30,34 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: "",
-    editLinks: false,
-    docsDir: "",
-    editLinkText: "",
-    lastUpdated: false,
+    repo: "https://github.com/0x4447-office/0x4447_webpage_foundation",
+    editLinks: true,
+    editLinkText: 'Edit on GitHub',
+    docsRepo: '0x4447-office/0x4447_webpage_foundation',
+    docsDir: 'docs',
+    docsBranch: 'master',
+    smoothScroll: true,
+    displayAllHeaders: true,
     sidebarDepth: 2,
     nav: [
       {
-        text: "Home",
-        link: "/"
-      },
-      {
-        text: "Documents",
+        text: "Departments",
         items: [
-          { text: "Office", link: "/documents/office/" },
-          { text: "Design", link: "/documents/design/" },
-          { text: "programmers", link: "/documents/programmers/" }
+          { text: "Office", link: "/departments/office/" },
+          { text: "Design", link: "/departments/design/" },
+          { text: "Programers", link: "/departments/programers/" }
         ]
-      }
+      },
     ],
     sidebar: "auto",
-    markdown: {
-      lineNumbers: true
-    },
+  },
+
+  markdown: {
+    lineNumbers: true
   },
 
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
-  plugins: ["@vuepress/plugin-back-to-top", "@vuepress/plugin-medium-zoom"]
+  plugins: ["@vuepress/plugin-back-to-top"]
 };
