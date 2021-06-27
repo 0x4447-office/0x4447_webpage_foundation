@@ -1,0 +1,23 @@
+{
+  "name": "0x4447_webpage_foundation",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "authors": {
+    "name": "",
+    "email": ""
+  },
+  "repository": "https://github.com/0x4447-office/0x4447_webpage_foundation/0x4447_webpage_foundation",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/0x4447-office/0x4447_webpage_foundation#readme",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  },
+  "dependencies": {
+    "@vuepress/plugin-back-to-top": "^1.8.2"
+  }
+}
